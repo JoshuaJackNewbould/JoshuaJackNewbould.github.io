@@ -1,6 +1,20 @@
 .navbar {
     margin-bottom: 0 !important;
 }
+
+.navbar-brand{
+    padding-left: 5%;
+}
+
 .container {
     max-width: 90% !important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
 }
