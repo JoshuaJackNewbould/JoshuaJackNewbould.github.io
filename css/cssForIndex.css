@@ -1,0 +1,21 @@
+img:hover{
+    border-width: thick;  
+}
+
+.linkImg{
+    max-width: 100%;
+    margin:  auto;
+    border-color: black;
+    border-width: medium;
+    border-style:solid;
+}
+
+.linkText {   
+    background-color: aquamarine ; 
+    font-size: 200%;
+    color: black;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
