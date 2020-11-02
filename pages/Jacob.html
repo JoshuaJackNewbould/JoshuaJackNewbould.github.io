@@ -1,5 +1,32 @@
 <!doctype html>
 <html lang="en">
+  <style>
+    #surgery{
+   
+      float: right;
+      padding: 0px;
+      border:0px;
+      margin-right: -15px;
+    }
+    #docof{
+      float: left;
+      padding: 0px;
+      border:0px;
+      margin-left: -15px;
+    }
+    #spaced{
+  
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .coolList{
+      background-color: aquamarine;
+
+    }
+    .coolTitle{
+      color: #4d4949;
+    }
+  </style>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,24 +51,39 @@
           </li>
         </ul>
       </nav>
-    <div class="container" style="background-color: rgb(141, 141, 141); min-height: 100vh; max-height: 100%;">
+    <div class="container" style="background-color: rgb(160, 160, 160); min-height: 100vh; max-height: 100%;">
       <div class="row">
-        <div class="col">
-          <h1 class="text-center">Low cost sensors saving lives</h1>
+        <div class="col-8">
+          <h1 class="text-center"><b>Medicine in Computing</b></h1>
+          <h4 class="coolTitle">Computers have enabled surgery to become more advanced.<br>The benefits include:</h4>
+          <ul class = "coolList">
+            <li>Magnified vision</li>
+            <li>More accuracy from stabilised instruments</li>
+            <li>Improved access to the body</li>
+            <li>Maintained accuracy over long periods</li>
+            <li>Allows for remote surgery</li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <img src = "../images/surgery.jpg" id = surgery >
         </div>
       </div>
-      <br>
-      <div class="row">
-        <div class="col-6">
-          <p>
-            <span style="font-size: 20px;">
-         
-            </span>
-          </p>
+      <div class = "row" id = "spaced">
+        <div class = "col-4"><img src = "../images/docof.jpg" id = docof></div>
+        <div class = "col-8"><h4 class="coolTitle">Computing systems also allow for electronic health records.<br>Some advantages of this are:</h4>
+        <ul class = "coolList">
+          <li>Providing accurate and up to date information quickly</li>
+          <li>Sharing information across any and all medical centres</li>
+          <li>Encourages complete and precise documentation of patients</li>
+        </ul>
         </div>
-        <div class="col-6">
-          <a href=""><img src="" alt ="image"> text     </div>
       </div>
+
+      </div>
+      
+  
+  
     </div>
 
     <footer class="footer">
