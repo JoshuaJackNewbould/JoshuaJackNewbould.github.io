@@ -1,5 +1,29 @@
 <!doctype html>
 <html lang="en">
+  <style>
+    img:hover{
+      border-width: thick;
+      
+    }
+    .linkImg{
+      max-width: 100%;
+      margin:  auto;
+      border-color: black;
+      border-width: medium;
+      border-style:solid;
+    }
+    .linkText {   
+      background-color: aquamarine ; 
+      
+      font-size: 200%;
+      color: black;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+  </style>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,29 +48,40 @@
         </li>
       </ul>
     </nav>
-    <div class="container" style="background-color: rgb(141, 141, 141); height: 100vh;">
-      <div class="row">
-        <div class="col">
-          <h1 class="text-center">#paragraph header</h1>
-        </div>
+    <div class="container" style="background-color: rgb(141, 141, 141); height: 100vh; padding-top:10px;">
+     <div class = "row">
+       <div class = "col-4">
+      <a href="pages/Jacob.html">
+       <div class="container">
+        <img src="images/coverJacob.jpg" class = "linkImg">
+        <p class = "linkText">Medicine</p>
+       </div>
       </div>
-      <br>
-      <div class="row">
-        <div class="col-6">
-          <p>
-            #paragraph
-          </p>
-        </div>
-        <div class="col-6">
-          <a href="#">#some image</a>
-        </div>
+      </a>
+      <div class = "col-4">
+        <a href="pages/NewGroundSensors.html">
+         <div class="container">
+          <img src="images/JoshCover.jpg" class = "linkImg">
+          <p class = "linkText">Landslides</p>
+         </div>
+        
+        </a>
       </div>
-    </div>
-
+      <div class = "col-4">
+        <a href="pages/subpage-Kaiyue.html">
+         <div class="container">
+          <img src="images/Kaiyue.jpg" class = "linkImg">
+          <p class = "linkText">Education</p>
+         </div>
+        
+        </a>
+      </div>
     <footer class="footer">
       <div class="container">
         <span style="color:white">#footer text</span>
-      </div>
+
+
+    </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
