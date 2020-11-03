@@ -19,3 +19,7 @@ img:hover{
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
+.bioHeader{
+    text-align: center;
+}
